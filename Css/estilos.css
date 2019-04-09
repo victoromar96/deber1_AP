@@ -1,0 +1,106 @@
+/* 
+comentarios
+*/
+/*que selector especifico */
+
+body
+{
+    /*especifico el estilo para el selector*/
+
+    background: slategray;
+
+    
+
+}
+
+/*selector*/ /*aplica solo a la etiqueta p*/
+section p i
+{
+    font-size: 20px;
+    color: papayawhip;
+}
+
+/*para dar color al id(identificadores) con el (#)*/
+#caja
+{
+    width: 200px;
+    height: 300px;
+    background: olivedrab;
+}
+
+/*estilos para clases con el (.)*/
+.grupo
+{
+    width: 200px;
+    height: 300px;
+    background: maroon;
+    margin: 30px;
+    border: 9px;
+}
+
+/*estilo para etiquetas que es un selector*/
+
+h1
+{
+    font-size: 20px;
+    color: blue;
+}
+
+a [href="www.ciencias.epn.edu.ec"]
+{
+    font-size: 50px;
+    color: black;  
+}
+
+header{
+    width: 1000px;
+    height: 300px;
+    background: red;
+    border: 10px solid green;
+}
+
+#logo
+{
+    width: 400px;
+    height: 200px;
+    background: saddlebrown;
+    border: 10px solid turquoise;
+    /* espacio de la letra*/
+    padding: 30px;
+    /*espacio del margen*/
+    margin: 10px;
+    /*tipo de letra*/
+    
+
+
+}
+
+.grupo1
+{
+    width: 150px;
+    height: 130px;
+    background: #00ffcc;
+}
+
+.grupo2
+{
+    width: 150px;
+    height: 130px;
+    background: #F5BCA9;
+}
+
+.grupo3
+{
+    width: 150px;
+    height: 130px;
+    background:rgb(95, 1045,81,2);
+}
+
+
+
+
+
+
+
+
+

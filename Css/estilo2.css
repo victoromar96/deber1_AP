@@ -1,0 +1,223 @@
+
+header
+{
+    width: 1000px;
+    height: 120px;
+    background: #444;
+
+}
+
+/*formatear todo lo que son los margenes*/
+/*sector universal*/
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+
+/*relative = posicionar*/
+header
+{
+    width: 1000px;
+    height: 120px;
+    background: rgb(68, 68, 68);
+    position: relative;
+    margin: 20px auto;
+}
+
+nav
+{
+    width: 1000px;
+    height: 48px;
+    /*background: #4444;*/
+    position: relative;
+    margin: auto;
+}
+
+#top
+{
+    width: 1000px;
+    height: 192px;
+    /*background: #888;*/
+    position: relative;
+    margin: 20px auto;
+}
+
+section
+{
+    width: 1000px;
+    height: 453px;
+    background: #aaa;
+    position: relative;
+    margin: auto;
+}
+
+footer
+{
+    width: 1000px;
+    height: 70px;
+    background: #888;
+    position: relative;
+    margin: 20px auto;
+}
+
+
+/*estilos para logos*/
+#logo
+{
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    background: #ccc;
+    top: 30px;
+    left: 30px;
+    /*tipo de letra*/
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    /*para centrar el texto*/
+    text-align: center;
+    /*tiene que ser los mismos px del height y line-height*/
+    line-height: 60px;
+
+}
+
+.redes
+{
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    background: #ccc;
+    /*para hacer la figura en circulo*/
+    border-radius: 100%;
+    text-align: center;
+    line-height: 42px;
+    color: rgb(226, 132, 25);
+    
+
+}
+
+#icono1
+{
+    top: 42px;
+    right: 120px;
+}
+
+#icono2
+{
+    top: 42px;
+    right: 71px;
+}
+
+#icono3
+{
+    top: 42px;
+    right: 19px;
+}
+
+.botones
+{
+    float: left;
+    width: 196px;
+    height: 48px;
+    background: rgb(221, 101, 101);
+    margin: 0px 2px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    text-align: center;
+    line-height: 48px;
+
+}
+
+/*le aplica estilo al ultimo al "li"*/
+#top ul li
+{
+    float: left;
+    width: 326px;
+    height: 192px;
+    background: #333;
+    margin-right: 5px;
+
+}
+
+aside#izq
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 453px;
+    background: #333;
+    
+}
+
+aside#der
+{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 200px;
+    height: 453px;
+    /*background: #333;*/
+    
+}
+
+article
+{
+    position: absolute;
+    left: 200px;
+    top: 0;
+    width: 600px;
+    height: 453;
+    background: #666;
+}
+
+aside#der h2{
+    width:200px;
+    height:50px;
+    line-height:50px;
+    text-align:center;
+    background:rgb(135, 122, 155);
+    color:white;
+    margin-bottom:5px;
+    }
+
+    aside#der input{
+        padding:10px;
+        margin:5px 0;
+        width:176px;
+        }
+aside#der input[type="text"]{
+            background:url(../IMAGENES/usuario.png);
+            background-repeat:no-repeat;
+            background-position:right;
+            background-size:contain;
+}
+            
+aside#der input[type="pass"]{
+            background:url(../IMAGENES/password.png);
+            background-repeat:no-repeat;
+            background-position:right;
+            background-size:contain;
+}
+
+
+
+aside#der input[type="submit"]{
+width:200px;
+background:rgba(78, 135, 139, 0.733);
+border:0;
+}
+
+
+/*https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer*/
+
+
+
+
+
+
+
+
+
